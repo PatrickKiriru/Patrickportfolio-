@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #0f172a, #1e293b);
+    color: white;
+}
+
+/* HEADER */
+header {
+    text-align: center;
+    padding: 50px 20px;
+    background: #0b1220;
+}
+
+header h1 {
+    font-size: 40px;
+    color: #38bdf8;
+}
+
+header p {
+    color: #94a3b8;
+}
+
+/* NAV BUTTONS */
+.buttons {
+    margin-top: 20px;
+}
+
+.buttons a {
+    text-decoration: none;
+    color: white;
+    background: #2563eb;
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 8px;
+    display: inline-block;
+}
+
+.buttons a:hover {
+    background: #1d4ed8;
+}
+
+/* SECTIONS */
+.card {
+    background: #111827;
+    margin: 20px auto;
+    padding: 20px;
+    width: 90%;
+    max-width: 900px;
+    border-radius: 12px;
+}
+
+/* SKILLS GRID */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 10px;
+}
+
+.box {
+    background: #1f2937;
+    padding: 15px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+/* PROJECTS */
+.project {
+    background: #1f2937;
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+
+/* CONTACT BUTTON */
+.contact-btn {
+    display: inline-block;
+    margin-top: 10px;
+    background: #22c55e;
+    padding: 10px 15px;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+.contact-btn:hover {
+    background: #16a34a;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #94a3b8;
+}
